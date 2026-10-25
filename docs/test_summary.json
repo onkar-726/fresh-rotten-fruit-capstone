@@ -1,0 +1,13 @@
+{
+  "passed": 52,
+  "failed": 0,
+  "skipped": 0,
+  "tests": 52,
+  "pytest_seconds": 494,
+  "notebooks_executed": 4,
+  "notebooks_total": 4,
+  "tensorflow": "2.21.0",
+  "python": "3.12.3",
+  "date": "2026-10-24",
+  "environment": "CPU only, synthetic stand-in dataset"
+}

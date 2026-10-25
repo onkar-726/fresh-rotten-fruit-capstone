@@ -1,0 +1,4 @@
+{
+  "_note": "Safe profile: all visible GPUs, per-GPU batch 32, full precision. Use this first.",
+  "hardware": {"gpus": "all", "per_gpu_batch_size": 32, "mixed_precision": "off", "lr_scaling": "none"}
+}

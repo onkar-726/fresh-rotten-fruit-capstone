@@ -1,0 +1,4 @@
+{
+  "_note": "Debug profile: one GPU, small batch, full precision. Use it to separate model problems from multi-GPU problems.",
+  "hardware": {"gpus": "1", "per_gpu_batch_size": 32, "mixed_precision": "off", "lr_scaling": "none"}
+}

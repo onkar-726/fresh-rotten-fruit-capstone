@@ -1,0 +1,8 @@
+{
+  "final_model": "mobilenet_v2",
+  "reason": "highest validation macro-F1",
+  "validation_macro_f1": {
+    "baseline_cnn": 0.8418469568607015,
+    "mobilenet_v2": 0.996130474868716
+  }
+}

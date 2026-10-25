@@ -1,0 +1,4 @@
+{
+  "_note": "Performance profile for the DGX B200: all GPUs, per-GPU batch 64, bfloat16 mixed precision. Try it AFTER scripts/check_gpu.py and a run with configs/default.json succeed. Not benchmarked by the authors of this project template.",
+  "hardware": {"gpus": "all", "per_gpu_batch_size": 64, "mixed_precision": "bf16", "lr_scaling": "none"}
+}

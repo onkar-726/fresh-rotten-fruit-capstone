@@ -1,0 +1,5 @@
+# Extra packages for Google Colab ONLY. Colab already ships TensorFlow, numpy, pandas, scikit-learn,
+# scipy, matplotlib and pillow - never pin or reinstall them (that can break the runtime).
+kagglehub>=0.3
+tabulate>=0.9
+gradio>=4.0

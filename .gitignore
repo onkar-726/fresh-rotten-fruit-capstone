@@ -1,0 +1,41 @@
+# Python
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+*.egg-info/
+.venv/
+venv/
+.pytest_cache/
+
+# Large artefacts stay local (never in git): trained models, dataset images, transfer bundles
+*.keras
+*.h5
+*.tflite
+*.zip
+workspace/*
+!workspace/.gitkeep
+data/raw/*
+!data/raw/.gitkeep
+real_world/
+logs/
+
+# OS / editor
+.DS_Store
+.idea/
+.vscode/
+
+# Dataset archives and local datasets
+fruit_data_bundle.zip
+dataset.zip
+*.tar
+*.tar.gz
+
+# Local environments and credentials
+.env
+.env.*
+!.env.example
+credentials.json
+secrets.json
+
+# Local application/runtime files
+.gradio/
